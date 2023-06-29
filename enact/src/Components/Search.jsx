@@ -26,7 +26,7 @@ const Search = () => {
   };
   
   return (
-    <>
+    <section className="container section section__height" id="skills">
       <div>
         <input
           type="text"
@@ -49,7 +49,7 @@ const Search = () => {
           </div>
         )}
       </div>
-    </>
+    </section>
   );
 };
 
@@ -7237,3 +7237,4 @@ const data = [
 ];
 
 export default Search;
+
