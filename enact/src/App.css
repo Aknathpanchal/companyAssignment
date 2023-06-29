@@ -12,18 +12,18 @@
   /*========== Colors ==========*/
   --hue: 174;
   --sat: 63%;
-  --first-color: hsl(var(--hue), var(--sat), 40%);
+  --first-color: hsl(var(--hue), var(--sat), 50%);
   --first-color-alt: hsl(var(--hue), var(--sat), 36%);
   --title-color: hsl(var(--hue), 12%, 15%);
   --text-color: hsl(var(--hue), 8%, 35%);
   --body-color: hsl(var(--hue), 100%, 99%);
-  --container-color: #FFF;
+  --container-color: #fff;
 
   /*========== Font and typography ==========*/
-  --body-font: 'Open Sans', sans-serif;
+  --body-font: "Open Sans", sans-serif;
   --h1-font-size: 1.5rem;
-  --normal-font-size: .938rem;
-  --tiny-font-size: .625rem;
+  --normal-font-size: 0.938rem;
+  --tiny-font-size: 0.625rem;
 
   /*========== z index ==========*/
   --z-tooltip: 10;
@@ -49,7 +49,7 @@ html {
 }
 
 body {
-  margin: var(--header-height) 0 0 0;
+  /* margin: var(--header-height) 0 0 0; */
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
@@ -64,15 +64,12 @@ a {
   text-decoration: none;
 }
 
-img {
+/* img {
   max-width: 100%;
   height: auto;
-}
+} */
 
 /*=============== REUSABLE CSS CLASSES ===============*/
-.section {
-  padding: 4.5rem 0 2rem;
-}
 
 .section__title {
   font-size: var(--h1-font-size);
@@ -100,7 +97,7 @@ img {
   width: 100%;
   background-color: var(--container-color);
   z-index: var(--z-fixed);
-  transition: .4s;
+  transition: 0.4s;
 }
 
 /*=============== NAV ===============*/
@@ -134,11 +131,11 @@ img {
     display: grid;
     align-content: center;
     border-radius: 1.25rem 1.25rem 0 0;
-    transition: .4s;
+    transition: 0.4s;
   }
 }
 
-.nav__list, 
+.nav__list,
 .nav__link {
   display: flex;
 }
@@ -168,7 +165,7 @@ img {
 .active-link {
   position: relative;
   color: var(--first-color);
-  transition: .3s;
+  transition: 0.3s;
 }
 
 /* Minimalist design, active link */
@@ -230,9 +227,9 @@ img {
 
   /* First design, remove if you choose the minimalist design */
   .active-link::before {
-    content: '';
+    content: "";
     position: absolute;
-    bottom: -.75rem;
+    bottom: -0.75rem;
     width: 4px;
     height: 4px;
     background-color: var(--first-color);
@@ -247,6 +244,3 @@ img {
     margin-right: auto;
   }
 }
-
-
-

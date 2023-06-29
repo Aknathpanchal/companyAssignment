@@ -1,11 +1,18 @@
 import "./App.css";
-import React from "react";
+import React, { useEffect } from "react";
 import { Route, Routes, NavLink } from "react-router-dom";
-import Home from "./Components/Home";
-import About from "./Components/About";
-import Search from "./Search";
+import Home from "./Pages/Home";
+import About from "./Pages/About";
+import Search from "./Pages/Search";
+import { getData } from "./Redux/action";
+import { useDispatch } from "react-redux";
+import MainRoutes from "./Routes/MainRoutes";
 
 function App() {
+  const dispatch = useDispatch();
+
+  useEffect(() => dispatch(getData()), []);
+
   return (
     <div className="App">
       <div className="division1">
@@ -61,12 +68,13 @@ function App() {
             </div>
           </header>
           <div>
-            <Routes>
+            {/* <Routes>
               <Route path="/" element={<Home />}></Route>
-              <Route path="/search" element={<Search/>}></Route>
-              <Route path="/video" element={<Home/>}></Route>
+              <Route path="/search" element={<Search />}></Route>
+              <Route path="/video" element={<Home />}></Route>
               <Route path="/about" element={<About />}></Route>
-            </Routes>
+            </Routes> */}
+            <MainRoutes/>
           </div>
         </div>
       </div>
