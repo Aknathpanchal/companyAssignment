@@ -1,5 +1,7 @@
 This is a company Assignment
 
+### Deployment Link : "https://649d60143b49665f2b128046--unrivaled-kitten-8d5ac4.netlify.app/"
+
 
 # Main Page 
 ![image](https://github.com/Aknathpanchal/companyAssignment/assets/100464802/9399ba52-3352-47ea-8a87-30026bc477f6)
@@ -71,9 +73,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
