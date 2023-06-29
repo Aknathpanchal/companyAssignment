@@ -1,4 +1,13 @@
-# Getting Started with Create React App
+This is a company Assignment
+
+
+# Main Page 
+![image](https://github.com/Aknathpanchal/companyAssignment/assets/100464802/9399ba52-3352-47ea-8a87-30026bc477f6)
+
+# Search Page UI 
+![image](https://github.com/Aknathpanchal/companyAssignment/assets/100464802/50902bc5-baee-4e5e-b9b5-c0d43689d7de)
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
